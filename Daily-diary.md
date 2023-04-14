@@ -6,7 +6,7 @@ internal ports to the external ports by using: `-p 8000:800` when running and `E
 
 Then i could access the server through my laptops ip address and port number from any device connected to the same network.
 
-I also learnt how to run a docker container as an interactive environment for debugging by using `docker exec <'container name> -it bash` 
+I also learnt how to run a docker container as an interactive environment for debugging by using `docker exec <container name> -it bash` 
 
 Then i created a react-app container based of node:alpine to run a react app from github in a peer programming setup.
 
