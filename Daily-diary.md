@@ -8,7 +8,7 @@ Then i could access the server through my laptops ip address and port number fro
 
 I also learnt how to run a docker container as an interactive environment for debugging by using `docker exec <container name> -it bash` 
 
-Then i created a react-app container based of node:alpine to run a react app from github in a peer programming setup.
+Then i created a react-app container based of **node:alpine** to run a react app from github in a peer programming setup.
 
 I researched volumes and bindings to keep my data persisent across restarts. 
 
