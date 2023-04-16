@@ -29,4 +29,4 @@ Another way to do this is by adding VNC server into the Dockerfile
 `CMD ["v11vnc", "-create", "-forever"]`
 > This is my preffered way to keep it isolated and running through a connectable port
 > 
-You also need to bind a host port to the container vnc port `5900` with `-p 5900:80` on `run` command
+You also need to bind a host port to the container vnc port `5900` with `-p 5900:5900` on `run` command
