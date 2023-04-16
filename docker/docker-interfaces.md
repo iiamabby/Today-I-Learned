@@ -19,3 +19,14 @@ Setting the variables in the Dockerfile
 `VOLUME [ "/tmp/.X11-unix:/tmp/.X11-unix" ]`
 
 > X11 is not a secure way of doing this as it gives the container access to the gpu to be able to draw on the screen but for testing purposes its fine.
+
+## VNC server
+Another way to do this is by adding VNC server into the Dockerfile
+
+`FROM ubuntu:latest`
+`RUN apt-get update && apt-get install -y firefox x11vnc xvfb`
+`RUN echo "exec firefox" > ~/.xinitrc && chmod +x ~/.xinitrc`
+`CMD ["v11vnc", "-create", "-forever"]`
+> This is my preffered way to keep it isolated and running through a connectable port
+> 
+You also need to bind a host port to the container vnc port `5900` with `-p 5900:80` on `run` command
