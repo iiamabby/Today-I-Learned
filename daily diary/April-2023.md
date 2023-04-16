@@ -7,3 +7,16 @@
 - Then i created a react-app container based of **node:alpine** to run a react app from github in a peer programming setup.
 - I researched volumes and bindings to keep my data persisent across restarts. 
 - [docker run](https://docs.docker.com/engine/reference/commandline/run/#publish) to see all of the flag options 
+
+## April 17th 2023
+
+- Created an image to run Minecraft client JDK in a containerized environment
+- Created a git repo to store the code for the minecraft project 
+- Researched minecraft-launcher and how this works in the CLI 
+- Researched ./gradlew commands to help with the automation process
+- Practiced using docker flags `--it` & `bash` to debug running containers
+- Continously worked on the TIL repo. 
+### Issues 
+
+- To be able to run the interface of the project some variables need to be declared in the Dockerfile see `docker/docker-interfaces.md`. 
+- Container runs `--it` but is not able to keep its state due to the GUI not been set correctly.

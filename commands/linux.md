@@ -14,5 +14,5 @@ knowing how to use the software efficently greatly increases ergonomics of work 
 ## CLI key commands 
 
 `man` : displays the manual for a specified command 
-`dpkg`: de-packages a zipped folder 
+`dpkg`: de-packages a deb file, `-i` to install 
 `ctrl + r` : reverse search previous commands 
