@@ -14,9 +14,16 @@
 - Created a git repo to store the code for the minecraft project 
 - Researched minecraft-launcher and how this works in the CLI 
 - Researched ./gradlew commands to help with the automation process
-- Practiced using docker flags `--it` & `bash` to debug running containers
+- Practiced using docker flags `-it` & `bash` to debug running containers
 - Continously worked on the TIL repo. 
 ### Issues 
 
 - To be able to run the interface of the project some variables need to be declared in the Dockerfile see `docker/docker-interfaces.md`. 
-- Container runs `--it` but is not able to keep its state due to the GUI not been set correctly.
+- Container runs `-it` but is not able to keep its state due to the GUI not been set correctly.
+
+## April 18th 2023
+- Fixed minecraft-client issue of novnc not found
+- Researched docker best practices, cache managment, live reload.
+- Learnt about heredocs (see best-practices.md) 
+- Learnt about docker watchdog (see live-reload.md) 
+- Updated TIL repo 
