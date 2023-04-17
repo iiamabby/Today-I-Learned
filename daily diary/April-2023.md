@@ -24,6 +24,6 @@
 ## April 18th 2023
 - Fixed minecraft-client issue of novnc not found
 - Researched docker best practices, cache managment, live reload.
-- Learnt about heredocs (see best-practices.md) 
-- Learnt about docker watchdog (see live-reload.md) 
+- Learnt about heredocs see `best-practices.md` 
+- Learnt about docker watchdog see `live-reload.md`
 - Updated TIL repo 
