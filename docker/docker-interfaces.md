@@ -1,6 +1,6 @@
 # GUI in docker 
 
-Whilst running the container as an interactive environment, i ran the command `./gradlew runClient` from within the bash shell, i noticed that all of the graphics output properties where set to unkown or 0, the build failed due to these reasons. 
+Whilst running the container as an interactive environment, i ran the command `./gradlew runClient` from within the bash shell, i noticed that all of the graphics output properties where set to unkown or 0.
 
 Docker does not provide a GUI to execute applications 
 You need to tell docker how and what it should use to display the GUI. 
@@ -30,3 +30,7 @@ Another way to do this is by adding VNC server into the Dockerfile
 > This is my preffered way to keep it isolated and running through a connectable port
 > 
 You also need to bind a host port to the container vnc port `5900` with `-p 5900:5900` on `run` command
+
+## Nvidia Cuda
+[Use nvidia GPU with docker](https://www.howtogeek.com/devops/how-to-use-an-nvidia-gpu-with-docker-containers/)
+> This process didnt work on my windows machine, due to running AMD and Radeon i believe 

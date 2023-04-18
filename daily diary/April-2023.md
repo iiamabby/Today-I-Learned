@@ -27,3 +27,12 @@
 - Learnt about heredocs see `best-practices.md` 
 - Learnt about docker watchdog see `live-reload.md`
 - Updated TIL repo 
+
+
+# April 19th 2023
+
+- Paired with alex
+- Attempted Nvidia cuda implementation on windows AMD build with wsl
+- Researched tigerVNC and NoVNC, I think this is going to be the way 
+- Created a gitlab for this project with advice from Zach 
+
