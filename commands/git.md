@@ -7,4 +7,5 @@
 - `git status`
 - `git log -2`
 - `git add`
-- `git commit -m`
+- `git commit` - opens vim
+- `git push origin branch`
