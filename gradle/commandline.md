@@ -1,6 +1,6 @@
 # Automating gradle commands 
 
-- setup a project: `./gradlew genEclipseRun && ./gradlew build`
+- setup a project: `./gradlew genEclipseRun`
 
 - view all tasks available: `./gradlew tasks`
 

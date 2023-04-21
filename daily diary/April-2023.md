@@ -36,3 +36,11 @@
 - Researched tigerVNC and NoVNC, I think this is going to be the way 
 - Created a gitlab for this project with advice from Zach 
 
+# April 21st 2023
+
+- worked in the ii office space 
+- made PR request to push minecraft code into coop template 
+- fixed user permissions in template 
+- fixed gradle install location issues 
+- learnt vim 
+- learnt more advanced git commands
