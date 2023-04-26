@@ -44,3 +44,9 @@
 - fixed gradle install location issues 
 - learnt vim 
 - learnt more advanced git commands
+
+# April 26th 2023
+
+- Added IntelliJ to the minecraft coop 
+- Created a desktop file for minecraft in an attempt to add it to the toolbar 
+- Read chapters in 'A practical guide to linux, commands, editors and shell programming'
