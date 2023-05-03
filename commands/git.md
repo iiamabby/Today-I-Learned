@@ -1,0 +1,12 @@
+# Github commands 
+- `git branch`
+- `git checkout <branch>`
+- `git remote -v`
+- `git push`
+- `git diff`
+- `git status`
+- `git log -2`
+- `git add`
+- `git commit` - opens vim
+- `git push origin branch`
+- `git config pull.rebase false` - to merge stray branches
