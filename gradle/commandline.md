@@ -1,6 +1,6 @@
 # Automating gradle commands 
 
-- setup a project: `./gradlew genEclipseRun`
+- setup a project: `./gradlew genEclipseRun` || `./gradlew genIntellijRun` (although i have not noticed a difference even using the opposite editor)
 
 - view all tasks available: `./gradlew tasks`
 

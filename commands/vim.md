@@ -8,5 +8,6 @@
 - `x` delete curent character
 - `dw` delete word 
 - `:wq` write + quit
-- `x` quit and save or just quit
+- `:x` quit and save or just quit
 - `echo $EDITOR || export EDITOR=vi` = add vim as the main editor
+- `:set nu` - set line numbers
