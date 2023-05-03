@@ -9,3 +9,4 @@
 - `git add`
 - `git commit` - opens vim
 - `git push origin branch`
+- `git config pull.rebase false` - to merge stray branches
