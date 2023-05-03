@@ -30,9 +30,9 @@
 
 
 # April 19th 2023
-
+Today:
 - Paired with alex
 - Attempted Nvidia cuda implementation on windows AMD build with wsl
 - Researched tigerVNC and NoVNC, I think this is going to be the way 
-- Created a gitlab for this project with advice from Zach 
+- Created a gitlab space for this project with advice from Zach
 
